@@ -1,0 +1,373 @@
+@font-face {
+    font-family: '1';
+    src: url('fuentes/static/Montserrat-Medium.ttf')
+}
+@font-face {
+    font-family: '2';
+    src: url('fuentes/static/Montserrat-Light.ttf');
+}
+@font-face {
+    font-family: '3';
+    src: url('fuentes/static/Montserrat-Black.ttf');
+}
+@keyframes hoverloco{
+    from {
+        background-color: #F1E9F3;
+    }
+    to {
+        background-color: #C92798;
+        width: 100%;
+    }
+    
+}
+body {
+   background-color: #2C0436;
+    margin: 1vw; 
+    height: auto;
+    margin-top: 0px; 
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #810E8D;
+    height: 9vh;
+    width: 98%;
+    border-radius: 12px;
+    position: absolute;
+    top: 2%;
+    overflow: hidden;
+}
+#logo {
+    object-fit: contain;
+    height: 225%;
+    position: relative;
+    left: 2%;
+    bottom: 70%;
+
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    padding: 3px;
+
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-family: '1';
+    font-size: 1.4em;
+}
+a,p {
+    text-decoration: none;
+    color: #CBABD3 
+    }
+  /*◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○◘○*/
+main {
+    display: flex;
+    font-family: '2';
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.side {
+    background-color:#C92798;
+    box-shadow: 0px 8px 20px 34px #C92798;
+    -webkit-box-shadow: 0px 8px 20px 34px #C92798;
+    -moz-box-shadow: 0px 8px 20px 34px #C92798;
+    width: 20vw;
+}
+.inicio {
+  display: flex;
+    width: 80vw;
+    height: 100vh;
+}
+#foto {
+    position: static;
+    object-fit: cover;
+    height: 100%;
+    width: 32%;
+}
+.contenido {
+    width: 65%;
+    margin-top: 10vh;
+}
+h1,h2 {
+    font-family: '3';
+    margin: 0%;
+    color: #CBABD3;
+}
+h1 {
+    font-size: 5em;
+}
+h2, #resumen {
+    text-align: left;
+}
+
+.boton {
+    background-color: #C92798;
+    border-radius: 9px;
+    font-size: 1.2em;
+    padding: 3px;
+}
+.boton2 {
+    background-color: #2C0436;
+    border-radius: 9px;
+    font-size: 1.1em;
+    padding: 3px;
+}
+#apologies {
+    margin-top: 30vh;
+    font-size: 1.2em;
+}
+section {
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+height: 20%;
+border-radius: 12px;
+}
+.pie {
+    font-family: '2';
+    font-size: 1em;
+    text-align: center;
+}
+.ins {
+    background-color: #2C0436;
+    display: flex;
+    font-family: '2';
+    font-size: 1.1em;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.insintro {
+    margin-top: 1%;
+}
+.insfotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70%
+}
+.foto {
+    object-fit: cover;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #810E8D;
+}
+.uno {
+display: flex;
+width: 50%;
+}
+.dos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.foto.pir {
+    height: 46%;
+}
+/*Intente hacer un hover con las imagenes para que mostrara una descripcion pero falle en el intento :c
+tambien intente acomodarlas con greed pero nada funciona como uno supone, manejar imagenes es el infierno (?)*/
+
+a:hover {
+    color: #F1E9F3;
+}
+
+.boton2:hover {
+    padding: 3px;
+    font-size: 1.3em;
+}
+.boton:hover {
+    padding: 3px;
+    font-size: 1.4em;
+}
+#funo:hover {
+    border-color: #F1E9F3;
+}
+#fdos:hover {
+    border-color: #F1E9F3;
+}
+#ftres:hover {
+    border-color: #F1E9F3;
+}
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.otrostrabajos {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    border-radius: 12px;
+    margin-top: 30px;
+    width: 97.4vw;
+}
+.achedos{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.trabajossec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.trabajouno,.trabajodos,.trabajotres {
+  position: relative;
+  width: 50%;
+}
+
+.imagen {
+  border-radius: 12px;
+  border-style: double;
+  border-color: #810E8D;
+  width: 90%;
+  height: 90%;
+}
+
+.ef {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 92%;
+  width: 92%;
+  border-radius: 12px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #810E8D;
+}
+
+.trabajouno:hover .ef {
+  opacity: 1;
+}
+
+.textoa {
+  font-family: '2';
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.trabajodos:hover .ef {
+  opacity: 1;
+}
+
+.textob {
+  font-family: '2';
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.trabajotres:hover .ef {
+  opacity: 1;
+}
+
+.textoc {
+  font-family: '2';
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.clientes {
+    margin-top: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 99%;
+    height: 80vh;
+}
+.empresas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+
+
+}
+.empresasimg {
+    height: 90%;
+    width: 90%;
+    margin:  5%;
+    object-fit: contain;
+
+
+
+
+}
+.empresaitem {
+    background-color: #F1E9F3;
+    width: 45%;
+    height: 100%;
+    border-radius: 12px;
+
+}
+.achedosclientes {
+    margin-left: 2%;
+}
+
+.empresaitem:hover {
+    animation: hoverloco;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+.contacto {
+    background-color: black;
+    border-radius: 12px;
+    padding: 5%;
+    margin-bottom: 5px;
+
+}
+.contactoitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.redes, .directo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: '2';
+    width: 30%;
+    margin: 2%;
+    align-items: left;
+    text-align: start;
+}
+footer {
+    width: 99.4vw;
+    background-color: #810E8D;
+    position: absolute;
+    left: -1%;
+    display: flex;
+    justify-content: center;
+}
+.logofinal {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    height: 80px;
+
+}
